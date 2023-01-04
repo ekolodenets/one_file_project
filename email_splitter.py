@@ -1,4 +1,4 @@
-with open('emails_list.txt', 'r') as f:
+with open('files/emails_list.txt', 'r') as f:
     lines = f.read().splitlines()
 
 for mail in lines:
